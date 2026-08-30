@@ -1,0 +1,277 @@
+
+\documentclass[]{friggeri-cv_reccius-experiment}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\PassOptionsToPackage{cmyk}{xcolor}
+\usepackage{smartdiagram}
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\usepackage{marvosym}
+\usepackage{textcomp}
+\usepackage{float} % to position signature
+\usepackage{adjustbox}
+\usepackage{calc}
+\usepackage{enumitem} % to customize indent of bullet points via \itemize
+\usepackage{metalogo}
+\usepackage{dtklogos}
+\usepackage[utf8]{inputenc}	
+\usepackage{tikz}
+\usetikzlibrary{mindmap,shadows,positioning}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,           % no lik border color
+    allbordercolors=white       % white border color for all
+}
+\smartdiagramset{
+    bubble center node font = \footnotesize,
+    bubble node font = \footnotesize,
+    % specifies the minimum size of the bubble center node
+    bubble center node size = 0.06cm,
+    %  specifies the minimum size of the bubbles
+    bubble node size = 0mm,
+    % specifies which is the distance among the bubble center node and the other bubbles
+    distance center/other bubbles = 0.8cm,
+    % sets the distance from the text to the border of the bubble center node
+    distance text center bubble = 0.3cm,
+    % set center bubble color
+    bubble center node color = centergray,
+    % define the list of colors usable in the diagram
+    set color list = {bubblegray, bubblegray, bubblegray, bubblegray, bubblegray, white, lightgray, lightgray, lightgray, lightgray},
+    % sets the opacity at which the bubbles are shown
+    bubble fill opacity = 0.7,
+    % sets the opacity at which the bubble text is shown
+    bubble text opacity = 1,
+}
+
+% \addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{lightgray}{HTML}{777788}
+\definecolor{centergray}{HTML}{B9B9C9}
+% you can change ipsgreen to any color you like, but you´ll also have to change it in the reccius-cv-experiment.cls file
+\definecolor{ipsgreen}{HTML}{3B6746}
+
+% NAME AND TAGLINE
+\begin{document}
+%\vspace{-5cm}
+\header{Bianca Balzarini}{}
+    {Lic. en Física - Data Scientist}
+      
+\vspace{0.3cm}   
+
+% In the aside, each new line forces a line break
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%                 CONTACT                %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{info}
+    
+    \vspace{0.6cm}%\vspace{0.8cm}
+    
+    \begin{flushleft}
+
+    \thinspace\thinspace\thinspace\thinspace\thinspace\thinspace\space\space\space\space\space{\small linkedin.com/in/bianca-balzarini}\hfill{\Large\faLinkedin\thinspace\thinspace\thinspace}\\
+    
+    \vspace{0.14cm}
+    
+    \thinspace\thinspace\thinspace\thinspace\thinspace\thinspace\space\space\space\space\space{\small 54 9 11 5636 1407}\hfill{\LARGE\Mobilefone\thinspace}\\
+
+    \vspace{0.14cm}
+    
+    \thinspace\thinspace\thinspace\thinspace\thinspace\thinspace\space\space\space\space\space{\small balzarini.bianca@gmail.com}\hfill{\Large\Letter}\hspace{0.6mm}{\small \faMousePointer}\\
+    
+    \vspace{0.14cm}
+    
+    \thinspace\thinspace\thinspace\thinspace\thinspace\thinspace\space\space\space\space\space{\small github.com/biancabalzarini}\hfill{\Large\faGithub}\space\space\space\space\\
+    
+    \end{flushleft}
+\end{info}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% %%%%%%%%               SIDE BARS               %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{aside}
+    ~
+
+% PICTURE
+\vspace{-2.93cm}
+\begin{figure}[ht]
+	\hspace{0.29cm}
+	\includegraphics[width=.79\linewidth]{Pic4_circ.png}
+\end{figure}
+
+% SKILLS
+\newcommand{\skillspace}{\vspace*{-0.75mm}}
+  \vspace{2mm}
+  \section{Informática}\\
+  \vspace{3.5mm}
+    
+	\begin{itemize}[leftmargin=*, itemsep = 0.05em]
+	\item Python
+ 	\item SQL
+	\item R
+        \item Git
+        \item Power BI
+        \item Servicios de AWS
+        \item Docker
+	\end{itemize}
+
+  \vspace{0mm}
+  \section{Idiomas}\\
+  	\begin{itemize}[leftmargin=*, noitemsep]
+	\vspace{3mm}
+	\item Inglés - Competencia profesional completa
+	\end{itemize}	
+	
+  \vspace{0mm}
+  \section{Publicaciones}\\
+  	\vspace{3.5mm}
+	\textit{Effect of the electronic
+	\\pressure on the energy and magnetic moment of charged test particles in turbulent electromagnetic fields}\\
+	\vspace{1.5mm}
+	Balzarini et al. - Physics of Plasma - 2022
+\end{aside}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% %%%%%%%%             EDUCATION             %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\eduspace}{\vspace*{0.85mm}}
+\newcommand{\eduspaceII}{\vspace*{0.8mm}}
+\newcommand{\jobspace}{\vspace*{-4.2mm}}
+%\vspace{-0.5mm}
+\vspace{1.12cm}
+
+\section{FORMACIÓN}
+\begin{entrylist}
+
+   \entry
+    {Abr. 2022 - Presente\space\space\enspace}
+    {Master en Ciencia de Datos | }{\small{ITBA}}
+    {\normalsize}
+    {\jobspace
+    \vspace{0.3cm}
+    \textit{}}
+        
+   \entry
+    {2015 - Sept. 2021\space\space\enspace}
+    {Licenciatura en Ciencias Físicas | }{\small{FCEN, UBA}}
+    {\normalsize}
+    {\jobspace
+    \vspace{0.01cm}
+    \textit{}}
+    
+\end{entrylist}
+\vspace{0.3cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%       EXPERIENCE       %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{EXPERIENCIA}
+\begin{entrylist}
+
+  \entry
+    {Mar. 2025 - Presente\space\space\enspace}
+    {Sr. Data Scientist | }{{\small Santander Tecnología}}
+    {}
+    {\jobspace
+    \vspace{0.1cm}
+    \begin{itemize}[leftmargin=*, itemsep = 0.4em]
+    \item Manejo de proyectos y diseño de soluciones basadas en datos para\\las necesidades de las distintas áreas de negocio.\\
+    \end{itemize}
+    \vspace{0.15cm}
+    }
+    
+  \entry
+    {May. 2023 - Feb. 2025\space\space\enspace}
+    {Data Scientist | }{{\small Despegar}}
+    {}
+    {\jobspace
+    \vspace{0.1cm}
+    \begin{itemize}[leftmargin=*, itemsep = 0.4em]
+    \item Sr. Commercial Innovation Analyst - Manejo de proyectos relacionados a\\la ciencia de datos para el área comercial. Creación de pipelines de datos\\y modelos de machine learning para ayudar en la toma de decisiones.\\
+    \end{itemize}
+    \vspace{0.15cm}
+    }
+    
+  \entry
+    {Ene. 2022 - Abr. 2023\space\space\enspace}
+    {Technology Specialist - System Admin | }{{\small PwC}}
+    {}
+    {\jobspace
+    \vspace{0.1cm}
+    \begin{itemize}[leftmargin=*, itemsep = 0.4em]
+    \item Servicios brindados a la firma PwC estadounidense, manejando datos\\relacionados con riesgo y cumplimiento. Uso diario del inglés.
+    \item Diseño de dashboards en Power BI y creación de workflows en\\Alteryx para la automatización de procesos y el análisis de datos.\\
+    \end{itemize}
+    \vspace{0.15cm}
+    }
+    
+  \entry
+    {Abr. 2020 - Dic. 2021\space\space\enspace}
+    {Ayudante asistente | }{{\small Departamento de Física, FCEN, UBA}}
+    {}
+    {\jobspace
+    \vspace{0.1cm}
+    \begin{itemize}[leftmargin=*, itemsep = 0.4em]
+    \item Dictado de clases - Diseño de exámenes - Apoyo a los estudiantes para\\ resolver sus dudas. Cargo obtenido por concurso.\\
+    \end{itemize}
+    \vspace{0.15cm}
+    }
+    
+  \entry
+    {2019 - 2020\enspace}
+    {Proyecto de Deep Learning | }{{\small Laboratorio de Sistemas Dinámicos, UBA}}
+    {}
+    {\jobspace
+    \vspace{0.1cm}
+    \begin{itemize}[leftmargin=*, itemsep = 0.4em]
+    \item Diseño de un dispositivo con el fin de estimar la posición de aves a\\ partir de su canto. Desarrollo de un perceptron multicapa basado en la\\ diferencia del tiempo de arribo del sonido a distintos micrófonos.
+    \end{itemize}
+    \vspace{0.55cm}
+    }
+
+  \entry
+    {2019\enspace}
+    {Trabajo final de un curso de Deep Learning  | }{\small FCEN, UBA}
+    {\normalsize}
+    {\jobspace
+    \vspace{0.1cm}
+    \begin{itemize}[leftmargin=*, itemsep = 0.4em]
+    \item Desarrollo de una red neuronal convolucional para colorizar imágenes\\ en blanco y negro.
+    \end{itemize}
+    }
+    
+\end{entrylist}
+\vspace{0.25cm}
+
+\section{OTROS}
+\begin{entrylist}
+    
+  \entry
+    {2019\enspace}
+    {Asistencia a la escuela de invierno Giambiagi XXII | }{{\small FCEN, UBA}}
+    {}
+    {\jobspace
+    \vspace{0.1cm}
+    \textit{Inteligencia Artificial y Deep Learning en Física.}
+    \vspace{0.85cm}
+    }
+    
+  \entry
+    {2018 y 2019\space\space\enspace}
+    {Semana de la Física | }{{\small FCEN, UBA}}
+    {}
+    {\jobspace
+    \vspace{0.1cm}
+    \textit{Actividad de divulgación científica.}
+    \vspace{0.55cm}
+    \begin{itemize}[leftmargin=*, itemsep = 0.4em]
+    \item Participación como expositora en las ediciones 2018 y 2019.
+    \end{itemize}}
+\end{entrylist}
+\end{document}
