@@ -1,3 +1,21 @@
-# Ignorar archivos de log
+# Archivos de log y temporales de LaTeX
 *.log
 *.log.*
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.run.xml
+*.synctex.gz
+*.synctex(busy)
+*.synctex.*
+
+# Archivos de salida de compilación en general
+*.xdv
+*.toc
+*.lof
+*.lot
+xelatex_out.txt
